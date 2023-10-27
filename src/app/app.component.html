@@ -1,0 +1,11 @@
+<h1 class="title">Guessing Number Game</h1>
+<div class="container">
+<div class="center">
+<button class="button" (click)="startNewGame()">Start New Game</button>
+<div *ngIf="attempts">
+<h3><u>Player Name</u> : {{playerName}}</h3>
+<h3><u>Number of Attempts</u>: {{attempts > 0 ? attempts:null }}</h3>
+<h3><u>Computer Number</u>: {{computerNumber}}</h3>
+</div>
+</div>
+</div>

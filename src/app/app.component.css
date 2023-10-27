@@ -1,0 +1,40 @@
+.title {
+    font-style: italic;
+    text-align: center;
+    color: darkblue;
+  }
+  
+  .container {
+    height: 200px;
+  
+    position: relative;
+    border: 5px solid green;
+    display: flex;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .button {
+    padding-top: 0cm;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: 2px solid #4caf50;
+    height: 30px;
+    font-size: 20px;
+  }
+  
+  .button:hover {
+    background-color: #4caf50;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+  }
+  
